@@ -15,6 +15,7 @@
     ></script>
     <link rel="stylesheet" href="../styles/normalize.css" />
     <link rel="stylesheet" href="../styles/shared.css" />
+    <link rel="stylesheet" href="../styles/contact.css" />
     <title>Verde-Ink. - Contact</title>
   </head>
   <body>
@@ -34,7 +35,52 @@
       </nav>
       <div class="hero-section"></div>
     </header>
-    <main></main>
+    <main>
+      <form action="/" class="contact-form-container">
+        <!-- Input for customer name -->
+        <div class="contact-info">
+          <label for="name">Full name:</label>
+          <input type="text" id="name" placeholder="Ex: John Smith" required />
+        </div>
+
+        <!-- Input for customer email -->
+        <div class="contact-info">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Ex: johnsmith@gmail.com"
+            required
+          />
+        </div>
+
+        <!-- Input for customer phone number -->
+        <div class="contact-info">
+          <label for="phone">Phone:</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            pattern="[0-9]{10}"
+            placeholder="Ex: 0712345678"
+          />
+        </div>
+
+        <!-- Input for additional information -->
+        <div class="contact-info">
+          <label for="message">Message:</label>
+          <textarea
+            name="message"
+            id="message"
+            rows="5"
+            placeholder="Any additional information"
+          ></textarea>
+        </div>
+        <div class="contact-btn">
+          <button class="btn" type="submit">Submit</button>
+        </div>
+      </form>
+    </main>
     <footer class="footer">
       <div class="footer-container">
         <div class="footer-icons">
