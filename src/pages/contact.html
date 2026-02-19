@@ -36,7 +36,8 @@
       <div class="hero-section"></div>
     </header>
     <main>
-      <form action="/" class="contact-form-container">
+      <h1 class="contact-header">Contact Us!</h1>
+      <form action="/">
         <!-- Input for customer name -->
         <div class="contact-info">
           <label for="name">Full name:</label>
@@ -63,7 +64,18 @@
             name="phone"
             pattern="[0-9]{10}"
             placeholder="Ex: 0712345678"
+            required
           />
+        </div>
+        <div class="contact-info">
+          <label for="country">Reason:</label>
+          <!-- <i class="fa-regular fa-hand-point-down icon"></i> -->
+          <select name="country" id="country" required>
+            <option value="Sweden">Book Consultation</option>
+            <option value="Norway">Manage Appointment</option>
+            <option value="Finland">Cancel Appointment</option>
+            <option value="Denmark">Other</option>
+          </select>
         </div>
 
         <!-- Input for additional information -->
