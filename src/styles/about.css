@@ -1,3 +1,103 @@
-section{
+/*main styles*/
+section {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
   background-color: #FFFF;
+  font-family: "Poppins", sans-serif;
+  margin: 0% auto;
+  padding: 0 40px;
+  max-width: 1200px;
+  gap: 60px;
+  min-height: 100vh;
+}
+
+/*left page style*/
+.page-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  flex: 1;
+}
+
+.heading {
+  font-size: 65px;
+  font-weight: bold;
+  Line-height: auto;
+  letter-spacing: 2px;
+  max-width: 392px;
+  width: 100%;
+  min-height: 72px;
+}
+
+.sub-heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: auto;
+  letter-spacing: 0%;
+
+}
+
+.verde-info {
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 0%;
+  line-height: auto;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-btn {
+
+  width: 300px;
+  height: 86px;
+  opacity: 100%;
+  font-size: 40px;
+  letter-spacing: 0px;
+  outline: none;
+  border: none;
+  border-radius: 100px;
+  color: #FFFF;
+  background-color: black;
+  text-transform: uppercase;
+
+}
+
+.design-btn {
+  width: 300px;
+  height: 86px;
+  opacity: 100%;
+  font-size: 40px;
+  letter-spacing: 0px;
+  outline: none;
+  border: none;
+  color: black;
+  border-radius: 100px;
+  background-color: green;
+  text-transform: uppercase;
+}
+
+
+
+.page-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  flex: 1;
+
+}
+
+.page-right img {
+  max-width: 545px;
+  width: 100%;
+  min-height: 582px;
+  object-fit: cover;
+  border-radius: 8px;
+  animation: fadeIn 5s infinite alternate;
 }
