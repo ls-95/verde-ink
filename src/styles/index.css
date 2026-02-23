@@ -1,0 +1,27 @@
+.home1 {   
+    background-color: #FFFFFF;
+    margin: auto;
+
+}
+
+.home2 {
+    background-color: #2DCA4B;
+    margin: auto;
+
+}
+
+
+.container1 {
+  max-width: 12000px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  padding: 100px;
+}
+
+.container2 {
+  max-width: 12000px;
+  margin: 0 auto;
+  background-color: #2DCA4B;
+  padding: 100px;
+}
+
