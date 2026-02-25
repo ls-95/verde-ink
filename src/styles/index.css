@@ -115,6 +115,7 @@
   gap: 20px;
   flex: 1;
   padding: 50px;
+  max-width: 1200px;
 }
 
 .page-right {
@@ -124,6 +125,7 @@
   gap: 20px;
   flex: 1;
   padding: 50px;
+  max-width: 1200px;
 }
 
 .image1-smaller {
