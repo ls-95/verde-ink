@@ -99,6 +99,14 @@ p {
   font-size: 20px;
 }
 
+.green {
+  background-color: #2dca4b;
+}
+
+.black {
+  background-color: #0e0e0e;
+}
+
 /* FOOTER */
 .footer {
   background-color: #2b2b2b;
