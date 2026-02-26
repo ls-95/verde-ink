@@ -16,10 +16,11 @@ section {
 .page-left {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 20px;
   flex: 1;
 }
+/*main heading styles*/
 
 .heading {
   font-size: 65px;
@@ -30,21 +31,21 @@ section {
   width: 100%;
   min-height: 72px;
 }
-
+/* sub heading styles*/
 .sub-heading {
   font-size: 20px;
   font-weight: 500;
   line-height: auto;
   letter-spacing: 0%;
-
 }
-
+/*information of abut html*/
 .verde-info {
   font-size: 20px;
   font-weight: normal;
   letter-spacing: 0%;
   line-height: auto;
 }
+/*styles for buttons*/
 
 .btn {
   display: flex;
@@ -52,51 +53,43 @@ section {
   gap: 20px;
 }
 
-.contact-btn {
-  width: 300px;
-  height: 86px;
+.contact-btn,
+.design-btn {
+  width: fit-content;
   opacity: 100%;
-  font-size: 40px;
+  font-size: 30px;
   letter-spacing: 0px;
   outline: none;
   border: none;
   border-radius: 100px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.contact-btn {
   color: #FFFF;
   background-color: #000000;
-  text-transform: uppercase;
-
 }
 
 .design-btn {
-  width: 300px;
-  height: 86px;
-  opacity: 100%;
-  font-size: 40px;
-  letter-spacing: 0px;
-  outline: none;
-  border: none;
   color: #000000;
-  border-radius: 100px;
   background-color: #2DCA4B;
-  text-transform: uppercase;
 }
-
-
-
+/* styles for imgae*/
 .page-right {
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
   flex: 1;
-
 }
 
 .page-right img {
-  max-width: 545px;
+  max-width: 400px;
   width: 100%;
-  min-height: 582px;
+  min-height: 450px;
   object-fit: cover;
   border-radius: 8px;
-  animation: fadeIn 5s infinite alternate;
+  animation: fadeIn 2s alternate;
 }
