@@ -91,7 +91,18 @@
   width: fit-content;
   text-align: center;
   margin: auto;
+  cursor: pointer;
   
+}
+
+.btn-home1-hover {
+  background-color: #4dd74d;
+}
+
+.btn-home1-active {
+  position: relative;
+  top: 2px;
+  background-color: #1bab1b;
 }
 
 .btn-home2 {
@@ -105,13 +116,15 @@
   width: fit-content;
   text-align: center;
   margin: auto;
-  
+  cursor: pointer;
 }
+
 
 .page-left {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 20px;
   flex: 1;
   padding: 50px;
@@ -122,6 +135,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 20px;
   flex: 1;
   padding: 50px;
