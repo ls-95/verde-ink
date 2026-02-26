@@ -53,7 +53,6 @@ section {
 }
 
 .contact-btn {
-
   width: 300px;
   height: 86px;
   opacity: 100%;
@@ -63,7 +62,7 @@ section {
   border: none;
   border-radius: 100px;
   color: #FFFF;
-  background-color: black;
+  background-color: #000000;
   text-transform: uppercase;
 
 }
@@ -76,9 +75,9 @@ section {
   letter-spacing: 0px;
   outline: none;
   border: none;
-  color: black;
+  color: #000000;
   border-radius: 100px;
-  background-color: green;
+  background-color: #2DCA4B;
   text-transform: uppercase;
 }
 
