@@ -131,9 +131,12 @@
 .image1-smaller {
  width: 380px;
  height: auto;
+ border-radius: 8px;
 }
 
 .image2-smaller {
  width: 380px;
  height: auto;
+ border-radius: 8px;
 }
+
