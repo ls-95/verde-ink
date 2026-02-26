@@ -1,7 +1,7 @@
 /*main styles*/
 section {
   display: flex;
-  align-items: stretch;
+  align-items: center;/*changed*/
   justify-content: space-between;
   background-color: #FFFF;
   font-family: "Poppins", sans-serif;
