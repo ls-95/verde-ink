@@ -1,16 +1,64 @@
 /*main styles*/
-section {
+section:nth-of-type(1){
   display: flex;
-  align-items: center;/*changed*/
+  align-items: center;
+  /*changed*/
   justify-content: space-between;
   background-color: #FFFF;
   font-family: "Poppins", sans-serif;
   margin: 0% auto;
-  padding: 0 40px;
+  padding: 50px 40px;
   max-width: 1200px;
   gap: 60px;
-  min-height: 100vh;
+  min-height: 500px;
 }
+section{
+  padding:50px;
+}
+section:nth-of-type(2){
+  background-color:#2DCA4B;
+    font-family: "Poppins", sans-serif;
+  margin: 0% auto;
+  padding:50px 40px;
+
+}
+.about2 h2{
+  text-align: center;
+  padding: 25px;
+  justify-content: center;
+}    
+.card-container{
+  display: flex;
+  gap:10px;
+  justify-content:center;
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  min-height: 50px;
+  border-radius: 5px;
+  align-items: flex-start;
+  
+}
+
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+img {
+ width:auto;
+  height:auto;
+  border-radius: 5px 5px 0 0;
+}
+.container p{
+  text-align:left;
+  
+  line-height: 2;
+  letter-spacing: 0.02rem;
+  font-size:15px;
+}
+
 
 /*left page style*/
 .page-left {
@@ -20,6 +68,7 @@ section {
   gap: 20px;
   flex: 1;
 }
+
 /*main heading styles*/
 
 .heading {
@@ -31,6 +80,7 @@ section {
   width: 100%;
   min-height: 72px;
 }
+
 /* sub heading styles*/
 .sub-heading {
   font-size: 20px;
@@ -38,13 +88,15 @@ section {
   line-height: auto;
   letter-spacing: 0%;
 }
+
 /*information of abut html*/
 .verde-info {
   font-size: 20px;
   font-weight: normal;
   letter-spacing: 0%;
-  line-height: auto;
+  line-height: 2;
 }
+
 /*styles for buttons*/
 
 .btn {
@@ -61,21 +113,38 @@ section {
   letter-spacing: 0px;
   outline: none;
   border: none;
-  border-radius: 100px;
+  border-radius: 50px;
   text-transform: uppercase;
   padding: 10px 20px;
   text-align: center;
+  cursor: pointer;
 }
 
 .contact-btn {
   color: #FFFF;
   background-color: #000000;
 }
+.contact-btn:active{
+  position: relative;
+  top: 2px;
+  background-color: #1bab1b;
+}
+
+.contact-btn:hover {
+  background-color:#000000;
+
+}
 
 .design-btn {
-  color: #000000;
+  /*color: #000000;*/
   background-color: #2DCA4B;
 }
+
+.design-btn:hover {
+  background-color: #0b7a1f;
+  
+}
+
 /* styles for imgae*/
 .page-right {
   display: flex;
