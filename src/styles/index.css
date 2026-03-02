@@ -8,11 +8,11 @@
 
 .con-home1 {
     display: flex;
-    justify-content: space-between;
     max-height: 1200px;
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
+    align-items: center;
 }
 
 .home2 {
@@ -25,11 +25,11 @@
 
 .con-home2 {
     display: flex;
-    justify-content: space-between;
     max-height: 1200px;
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
+    align-items: center;
 }
 
 
@@ -38,7 +38,6 @@
     font-family: "Poppins", sans-serif;
     font-size: 72px;
     color: #000000;
-    font-style: bold;
     letter-spacing: 10px;
     
  
@@ -48,9 +47,8 @@
     font-family: "Poppins", sans-serif;
     font-size: 72px;
     color: #000000;
-    font-style: bold;
     letter-spacing: 10px;
-    margin-top: 60px;
+
    
 }
 
@@ -59,8 +57,6 @@
     font-size: 24px;
     color: #000000;
     flex: 1;
-    width: 548px;
-    margin-top: 60px;
 
     
 }
@@ -69,8 +65,7 @@
     font-family: "Poppins", sans-serif;
     font-size: 24px;
     color: #000000;
-    width: 548px;
-    margin-top: 60px;
+
 
 }
 
@@ -120,8 +115,6 @@
   padding: 50px;
   max-width: 1200px;
   
-  
-
 
 }
 
@@ -137,15 +130,12 @@
 }
 
 .image1-smaller {
- width: 380px;
- height: auto;
  border-radius: 8px;
 }
 
 .image2-smaller {
- width: 380px;
- height: auto;
  border-radius: 8px;
+ text-align: right;
 }
 
 header  {
