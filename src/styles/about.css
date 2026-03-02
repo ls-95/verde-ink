@@ -1,17 +1,17 @@
 /*main styles*/
-section {
+section{
   display: flex;
-  align-items: center;/*changed*/
+  align-items: center;
+  /*changed*/
   justify-content: space-between;
   background-color: #FFFF;
   font-family: "Poppins", sans-serif;
   margin: 0% auto;
-  padding: 0 40px;
+  padding: 50px 40px;
   max-width: 1200px;
   gap: 60px;
-  min-height: 100vh;
+  min-height: 500px;
 }
-
 /*left page style*/
 .page-left {
   display: flex;
@@ -20,6 +20,7 @@ section {
   gap: 20px;
   flex: 1;
 }
+
 /*main heading styles*/
 
 .heading {
@@ -31,6 +32,7 @@ section {
   width: 100%;
   min-height: 72px;
 }
+
 /* sub heading styles*/
 .sub-heading {
   font-size: 20px;
@@ -38,13 +40,15 @@ section {
   line-height: auto;
   letter-spacing: 0%;
 }
+
 /*information of abut html*/
 .verde-info {
   font-size: 20px;
   font-weight: normal;
   letter-spacing: 0%;
-  line-height: auto;
+  line-height: 2;
 }
+
 /*styles for buttons*/
 
 .btn {
@@ -61,21 +65,43 @@ section {
   letter-spacing: 0px;
   outline: none;
   border: none;
-  border-radius: 100px;
+  border-radius: 50px;
   text-transform: uppercase;
   padding: 10px 20px;
   text-align: center;
+  cursor: pointer;
 }
 
 .contact-btn {
   color: #FFFF;
   background-color: #000000;
 }
+.contact-btn:active{
+  position: relative;
+  top: 2px;
+  background-color: #1bab1b;
+}
+
+.contact-btn:hover {
+  background-color:#4dd74d;
+
+}
 
 .design-btn {
-  color: #000000;
+  color:  #2B2B2B;
   background-color: #2DCA4B;
 }
+.design-btn:active{
+  background-color: #1bab1b ;
+  position: relative;
+  top: 2px;
+}
+.design-btn:hover {
+  background-color:  #4dd74d;
+  
+}
+
+
 /* styles for imgae*/
 .page-right {
   display: flex;
